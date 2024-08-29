@@ -1,0 +1,1 @@
+<img  alt="weather" height="23" src="http://openweathermap.org/img/w/<?php echo $weather->weather[0]->icon ?>.png"> <?php echo getBanglaDate($weather->main->temp) ?><sup>o</sup> সে. আদ্রতা <?php echo getBanglaDate($weather->main->humidity) ?>%

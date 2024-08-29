@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    padding: 0;
+	font-family:SolaimanLipi;
+}
+
+img {
+    border: 0;
+	max-width:100%;
+}
+ul li{
+	list-style:none;
+}
+
+.wrapper {
+    width: 1265px;
+    margin: 0 auto;
+	overflow:hidden;
+}
+
+   /*  Header */
+.header {
+    width: 100%;
+    text-align: center;
+	overflow:hidden;
+}
+
+.headerTopNav {
+    background: #969fad;
+    text-align: right;
+    padding: 0 0 0 0;
+    height: 32px
+}
+.headerTopNav .online-vershion{
+	float:left;
+}
+.headerTopNav .online-vershion a{
+	padding-left:10px;
+	font-size:16px;
+}
+.social-icons {
+    float: right;
+    height: 32px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-left: 10px
+}
+
+.headerTopNav ul {
+    display: inline-flex
+}
+
+.headerTopNav li {
+    display: inline;
+    margin-right: 5px
+}
+
+.headerTopNav a {
+    font-size: 80%;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    line-height: 30px
+}
+
+.headerTopNav a:hover {
+    text-decoration: none
+}
+.mi_32x32 {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0,0,0,0);
+    background-image: url(../images/social.png);
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    height: 32px;
+    text-indent: -999px;
+    width: 32px;
+}
+.mi_32x32_tw {
+    background-position: 0 -64px;
+}
+.mi_32x32_gp {
+    background-position: 0 -128px;
+}
+
+
+
+.archive {
+    margin-top: 10px;
+    border: 1px solid #337ab7;
+    text-align: left
+}
+
+.archive_field {
+    padding-right: 1px
+}
+
+.archive_select {
+    width: 95px;
+    font-size: 8.5pt;
+    color: #333;
+    font-family: Arial;
+    text-decoration: none;
+    line-height: 14pt;
+    height: 22px;
+	border: 1px solid #337ab7;
+}
+
+.archive_select.date {
+    width: 45px
+}
+
+.archive_select.year {
+    width: 55px
+}
+
+.archive_go {
+    font-size: 9.5pt;
+    color: #fff;
+    font-family: Arial;
+    text-decoration: none;
+    line-height: 14pt;
+    width: 34px;
+    background:#337ab7;
+    border: 1px solid #a4a4a4
+}
+
+select#armonth {
+    width: 85px
+}
+
+select#aryear {
+    width: 55px
+}
+
+.purono-sonkha-img {
+    float: left;
+    margin-right: 7px
+}
+
+.bottomBanner {
+    padding: 5px 0;
+    margin: 0 10px 20px;
+    background: #f1f1f1;
+    text-align: center
+}
+
+.headerTopAdd {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px 0
+}
+.headerTopAdd .logo{
+	float:left;
+	padding-left:10px;
+	padding-top: 20px;
+	}
+.headerTopAdd .ad{float:right}
+
+.headerMain {
+    background: #f2f4f7;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc
+}
+
+
+
+
+/* main content */
+
+
+.left_side {
+    width: 899px;
+    float: left;
+	margin:25px 30px 25px 0;
+}
+.indivisual-page {
+	overflow:hidden;
+}
+.indivisual-page .pagination{
+	float:left;
+	margin-right:20px
+}
+.pagination ul{
+	display: inline-block;
+    padding: 0;
+    margin: 8px 0;
+	
+}
+
+.pagination ul li{
+	 display:inline-block;
+}
+.pagination ul li a,  .pagination ul li span{
+	color: black;
+    float: left;
+    padding: 5px 16px;
+    text-decoration: none;
+	transition: background-color .3s;
+    border: 1px solid #ddd;
+	font-size: 16px;
+}
+.pagination ul li a:hover{
+	    background-color: #ddd;
+}
+.pagination ul li.active{
+	background-color: #4CAF50; 
+}
+.pagination ul li.active span{
+	color:#ffffff;
+}
+.indivisual-page .select-page{
+	float:left;
+	margin-top:8px;	
+}
+.indivisual-page .select-page select{
+	padding:5px 8px 5px 8px;
+	font-size:16px;
+	width:200px;
+	font-family: SolaimanLipi;
+}
+.main_content{
+	text-align:justify;
+}
+#page-content{ 
+     position: relative; text-align: center; margin: 0 auto;border: 1px solid #ccc;
+	 }
+
+#page-content a.news-box {
+    position: absolute;
+    display: block;
+}
+
+#page-content a.news-box:hover {
+    background-color: rgba(0,0,0,.3);
+}
+.navigation ul{
+    width:100%;
+}
+.navigation .last{
+	float:right;
+}
+.right_side {
+    float: right;
+    width: 336px;
+	margin-top:25px;
+}
+.all_pages  h2{
+	background:#4CAF50;
+	color:#fff;
+	margin-top:23px;
+	padding:5px 10px;
+	font-size: 18px;
+}
+.all_pages ul{padding-left:0;padding-right:10px;height: 400px;overflow-y: scroll;margin-left:40px;margin-right:40px;}
+.all_pages ul li{border:1px solid #000;padding:10px;margin-bottom:10px;position:relative}
+.all_pages ul li span{
+	position: absolute;
+    bottom: 2px;
+    right: 2px;
+    background: red;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    color: #fff;
+	}
+.right_side .advertise{
+	margin:0 auto;
+}
+
+/* Footer  */
+.footerText {
+    width: 100%;
+    overflow: hidden;
+    border-top: 1px solid #bbbcbd;
+    background: #e7e7e7;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
